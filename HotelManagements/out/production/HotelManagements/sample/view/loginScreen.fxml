@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginScreenController">
+   <children>
+      <AnchorPane minHeight="600.0" minWidth="720.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(image/login_img.jpg)">
+         <children>
+            <Pane layoutX="110.0" layoutY="43.0" opacity="0.9" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #fff;">
+               <children>
+                  <TextField fx:id="username" layoutX="100.0" layoutY="131.0" prefHeight="35.0" prefWidth="300.0" promptText="Enter username">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="password" layoutX="100.0" layoutY="216.0" prefHeight="35.0" prefWidth="300.0" promptText="Enter password">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="112.0" layoutY="317.0" mnemonicParsing="false" onMouseClicked="#loginButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #09e2a7;" text="Login" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="290.0" layoutY="317.0" mnemonicParsing="false" onMouseClicked="#cancelButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #09e2a7;" text="Cancel" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="178.0" layoutY="48.0" prefHeight="50.0" prefWidth="145.0" text="Login" textAlignment="JUSTIFY" textFill="#1f55e8">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
